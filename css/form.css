@@ -1,0 +1,113 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------------------------------------------------*/
+body {
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	background: #e8e8e8;
+}
+ul li{
+	font-size: 20px;
+	line-height: 36px;
+	color: #273d46;
+	margin-left: 280px;
+	padding-left: 20px;
+	background: url(../img/li.svg) left no-repeat ;
+}
+.first-ul {
+	margin: 120px 0px 90px 0px;
+}
+.first-ul li:nth-child(1) {
+	text-decoration: line-through;
+	opacity: 0.7;
+}
+.first-ul li:nth-child(3) {
+	font-style: italic;
+} 
+.first-ul li:nth-child(4) {
+	text-transform: uppercase;
+}
+
+.second-ul {
+	margin: 0px 0px 140px 0px;
+}
+.second-ul li:nth-child(2):hover {
+	color: red;
+}
+
+.buttons{
+	margin-bottom: 125px;
+}
+.buttons button{
+	font-size: 14px;
+	letter-spacing: 3px;
+	color: #fff;
+	width: 200px;
+	height: 45px;
+	border-radius: 50px;
+	background: #80b7b3;
+}
+.first-button {
+	margin-left: 305px;
+}
+.second-button {
+	margin-left: 100px;
+}
+.second-button:hover {
+	background: #3a5855;
+}
+.third-button {
+	margin-left: 100px;
+}
+.third-button:active {
+	background: #818181;
+}
+
+.inputtext {
+	margin-left: 280px;
+}
+.inputtext input {
+	width: 300px;
+	height: 50px;
+	padding-left: 30px;
+}
+.first-inputtext {
+	margin-right: 80px;
+}
+.second-inputtext:focus {
+	box-shadow: 0 0 10px royalblue;
+}
